@@ -16,7 +16,7 @@ spec:
         component: core
     spec:
       containers:
-        - image: xiaoping378/grafana-cn:3.1.1
+        - image: grafana/grafana:4.6.3
           name: grafana-core
           # env:
           resources:
